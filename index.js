@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './config/db.js';
-import appointmentRoutes from './routes/Appointment.js';
+import appointmentRoutes from './routes/appointment.js';
 import inquiryRoutes from "./routes/inquiry.js"
 import userRoutes from "./routes/User.js"
 
